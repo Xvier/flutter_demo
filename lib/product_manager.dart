@@ -6,13 +6,16 @@ class ProductManager extends StatefulWidget {
 
   final String startingProduct;
 
-  ProductManager(this.startingProduct)
+  ProductManager(this.startingProduct);
 
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
     return _ProductManagerState();
-  }}
+  }
+}
+
+
 
 class _ProductManagerState extends State<ProductManager> {
   List<String> _products = [];
